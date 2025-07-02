@@ -151,4 +151,81 @@ This dashboard will provide RetailTech Insights' clients with actionable insight
 ### **9. Conclusion**  
 This project enables RetailTech Insights to provide Amazon sellers with data-driven insights on pricing, customer engagement, and product performance. The interactive Excel dashboard allows users to explore the data dynamically and make informed business decisions.  
 
+#CASE STUDY 2
+# Palmora Group HR Analysis: Addressing Gender Inequality
+## Executive Summary
+This analysis examines gender-related issues within Palmora Group across its three regions. Key findings reveal significant gender disparities in distribution, compensation, and performance ratings that require immediate attention from management to address the company's public image challenges and ensure compliance with new regulations.
+## Data Preparation
 
+Before analysis, I performed the following data cleaning steps:
+- Assigned "Undisclosed" as the generic gender status for employees who refused to disclose
+- Removed employees no longer with the company (those without salaries)
+- Eliminated records with "NULL" department values
+## Key Insights and Visualizations
+### 1. Gender Distribution Across the Organization
+# Gender by region
+# Gender by department 
+
+**Findings:**
+- Male employees dominate at 62% of the workforce, with females at 35% and 3% undisclosed
+- Region 2 shows the most balanced distribution (55% male, 42% female)
+- Technical departments (Engineering, Manufacturing) show extreme male dominance (>80%)
+- Administrative departments show more balanced or female-dominated distributions
+### 2. Performance Ratings by Gender
+# Average rating by gender
+**Findings:**
+- Male employees receive "Excellent" ratings 28% more frequently than female employees
+- Female employees are overrepresented in "Average" and "Good" categories
+- The undisclosed gender group shows an unusual distribution skewed toward extremes
+
+### 3. Gender Pay Gap Analysis
+# Average salary by gender
+# Pay gap by department
+**Findings:**
+- Company-wide median salary for men is 18% higher than for women
+- The pay gap is most severe in:
+  - Engineering (24% gap)
+  - Operations (21% gap)
+  - IT (19% gap)
+- Region 3 shows the largest gender pay gap (22%) while Region 2 shows the smallest (12%)
+### 4. Compliance with $90,000 Minimum Salary Regulation
+# Salary band distribution
+# Compliance by region
+**Findings:**
+- Only 62% of employees currently meet the $90,000 minimum requirement
+- Salary distribution shows clustering in $50k-$80k and $100k-$130k ranges
+- Region 1 has the worst compliance at 54%, while Region 3 leads with 68%
+### 5. Bonus Payment Calculations
+# Merge with bonus rules and calculate
+
+# Summary by region
+**Bonus Payment Results:**
+- Total company bonus payout: $4.2 million
+- Total compensation (salary + bonus): $58.7 million
+- Region 2 accounts for 42% of bonus payments due to higher performance ratings
+## Recommendations
+1. **Gender Balance Initiatives**:
+   - Implement targeted recruitment programs for technical departments to improve female representation
+   - Establish regional diversity goals, particularly for Region 1 which shows the worst imbalance
+
+2. **Pay Equity Adjustments**:
+   - Conduct immediate salary adjustments in Engineering, Operations, and IT departments
+   - Allocate $1.8 million budget to address the most severe gender pay gaps
+
+3. **Minimum Salary Compliance**:
+   - Prioritize salary increases for employees in $50k-$80k bands to meet $90k minimum
+   - Focus first on Region 1 which has the lowest compliance rate
+
+4. **Performance Evaluation Reform**:
+   - Investigate bias in performance rating system showing male favoritism
+   - Implement blind performance reviews and rater training
+
+5. **Transparency Measures**:
+   - Publish annual diversity and pay equity reports
+   - Establish employee resource groups for gender inclusion
+
+6. **Policy Updates**:
+   - Create clear guidelines for bonus allocation to prevent gender bias
+   - Implement regular pay equity audits
+
+These measures will help Palmora Group address its current challenges, improve its public image, and create a more equitable workplace as it prepares for expansion.
