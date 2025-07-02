@@ -29,9 +29,9 @@ Before analysis, I would:
 - This will show which categories tend to have the highest/lower discounts
 
 ### 2. Number of Products per Category
-- Pivot table with:
-  - Rows: Product Category
-  - Values: Count of Product ID/Name
+- Pivot table
+  ![number of products per category](https://github.com/user-attachments/assets/b23998d3-ece5-4e2a-b89d-10c42c92a961)
+
 - Shows which categories have the most product offerings
 ### 3. Total Reviews per Category
 - Pivot table with:
