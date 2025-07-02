@@ -52,8 +52,10 @@ Represented as a pivot table
 
 ### 6. Products with Highest Number of Reviews
 - Sorting ofdataset by review count (descending)
+
 ![product highest number of reviews](https://github.com/user-attachments/assets/e9e7cad4-d872-4964-9c51-c50a562b2827)
- This identifies the top products, likely popular or best-selling items, wit Electronics at the too of the list
+
+This identifies the top products, likely popular or best-selling items, wit Electronics at the too of the list
 
 ### 7. Products with ≥50% Discount
 - Create a filter on discount percentage column
