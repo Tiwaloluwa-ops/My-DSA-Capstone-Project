@@ -98,7 +98,9 @@ This identifies the top products, likely popular or best-selling items, wit Elec
 - Rank products by this score
 - Select top 5 products
 
-## Dashboard Creation
+## Dashboard
+![Dashboard Overview](https://github.com/user-attachments/assets/d2a9f677-3224-4e33-a0ca-6dfbe3153a40)
+
 **Dashboard Components:**
 1. **Summary Metrics Card:**
    - Total products analyzed
@@ -110,7 +112,10 @@ This identifies the top products, likely popular or best-selling items, wit Elec
    - Bar chart: Total reviews by category
    - Bar chart: Average discount by category
    - Tree map: Potential revenue by category
-   - 
+   
+3. **Interactive Filters**  
+   - **Slicers:** Category, Price Bucket, Rating Range
+  
 3. **Price Analysis Section:**
    - Pie chart: Product distribution by price bucket
    - Scatter plot: Price vs Rating (color by category)
@@ -137,5 +142,13 @@ This identifies the top products, likely popular or best-selling items, wit Elec
 - Dynamic titles that update with filters
 
 This dashboard will provide RetailTech Insights' clients with actionable insights to optimize their Amazon product offerings, pricing strategies, and marketing approaches.
+
+**Actionable Recommendations:**  
+   - Adjust pricing strategies based on discount impact  
+   - Focus marketing on high-rated products  
+   - Improve low-rated products based on review trends  
+
+### **9. Conclusion**  
+This project enables RetailTech Insights to provide Amazon sellers with data-driven insights on pricing, customer engagement, and product performance. The interactive Excel dashboard allows users to explore the data dynamically and make informed business decisions.  
 
 
