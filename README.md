@@ -1,5 +1,6 @@
 # My-DSA-Capstone-Project
-This is the first project I submitted in my portfolio building journey, while taking my Data Analytics Class with Digital Skillup and The Incubator Hub
+This is theRatings
+project I submitted in my portfolio building journey, while taking my Data Analytics Class with Digital Skillup and The Incubator Hub
 
 # Project Topic-Amazon Product Review Analysis
 
@@ -13,8 +14,10 @@ Before analysis, I would:
 - Ensure proper data types for each column
 - Create necessary calculated columns:
   - Discount percentage, Discounted price, and Price range bucket
+  - Transform the dataset into a table.
+  ![TableCapture](https://github.com/user-attachments/assets/9aa24380-130b-4bfd-9360-09841760cd37)
 
-  ### **1. Project Scope**  
+ ### **1. Project Scope**  
 - **Dataset:** 1,465 products with 16 fields (product details, pricing, discounts, ratings, and reviews).  
 - **Tools Used:** Microsoft Excel (For clenaing, PivotTables, Formulas, Charts, Dashboard)  
 - **Key Deliverables:**  
@@ -34,28 +37,29 @@ Before analysis, I would:
 
 - Shows which categories have the most product offerings
 ### 3. Total Reviews per Category
-- Pivot table with:
-  - Rows: Product Category
-  - Values: Sum of Review Count
-- Identifies which categories generate the most customer engagement
+Represented as a pibot table
+- ![number of review per category](https://github.com/user-attachments/assets/1c003ef0-0b79-46f9-b372-990aa4511f13)
+- This identifies which categories generate the most customer engagement
+
 ### 4. Products with Highest Average Ratings
-- Create a calculated column for average rating if not already present
-- Sort products by average rating (descending)
-- Filter top N products (typically top 10 or top 5%)
+Represented as a pivot table
+![highest average rating](https://github.com/user-attachments/assets/6b1d3d37-baa9-4e46-a8f5-2a7e121e22c6)
+
 ### 5. Average Actual Price vs Discounted Price by Category
-- Pivot table with:
-  - Rows: Product Category
-  - Values: 
-    - Average of Actual Price
-    - Average of Discounted Price
-- Shows price differentials across categories
+- Pivot table and Bar Chart
+![avg price vs discountprice by category](https://github.com/user-attachments/assets/f073aecc-1bfa-41f3-b46c-dc64e17308cd)
+- This shows price differentials across categories
+- 
 ### 6. Products with Highest Number of Reviews
-- Sort dataset by review count (descending)
-- Identify top products - likely popular/best-selling items
+- Sorting ofdataset by review count (descending)
+![product highest number of reviews](https://github.com/user-attachments/assets/e9e7cad4-d872-4964-9c51-c50a562b2827)
+ This identifies the top products, likely popular or best-selling items, wit Electronics at the too of the list
+
 ### 7. Products with ≥50% Discount
 - Create a filter on discount percentage column
 - Count rows where discount ≥ 50%
 - Can be shown by category using a pivot table
+
 ### 8. Distribution of Product Ratings
 - Create bins for ratings (e.g., 1-1.9, 2-2.9, etc.)
 - Pivot table with:
@@ -98,14 +102,13 @@ Before analysis, I would:
    - Total products analyzed
    - Total reviews across all products
    - Average rating
-   - Average discount percentage
-
+ 
 2. **Category Performance Section:**
    - Bar chart: Number of products by category
    - Bar chart: Total reviews by category
    - Bar chart: Average discount by category
    - Tree map: Potential revenue by category
-
+   - 
 3. **Price Analysis Section:**
    - Pie chart: Product distribution by price bucket
    - Scatter plot: Price vs Rating (color by category)
