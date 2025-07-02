@@ -49,7 +49,7 @@ Represented as a pivot table
 - Pivot table and Bar Chart
 ![avg price vs discountprice by category](https://github.com/user-attachments/assets/f073aecc-1bfa-41f3-b46c-dc64e17308cd)
 - This shows price differentials across categories
-- 
+
 ### 6. Products with Highest Number of Reviews
 - Sorting ofdataset by review count (descending)
 ![product highest number of reviews](https://github.com/user-attachments/assets/e9e7cad4-d872-4964-9c51-c50a562b2827)
