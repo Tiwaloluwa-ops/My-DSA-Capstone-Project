@@ -25,5 +25,6 @@ Before analysis, I would:
 ## Solution to Analysis Tasks
 ### 1. Average Discount Percentage by Product Category
  Represented as a pivot table
- 
+ average discount percentage.JPG
 - This will show which categories tend to have the highest/lower discounts
+- 
