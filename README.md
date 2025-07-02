@@ -16,8 +16,14 @@ Before analysis, I would:
 
   ### **1. Project Scope**  
 - **Dataset:** 1,465 products with 16 fields (product details, pricing, discounts, ratings, and reviews).  
-- **Tools Used:** Microsoft Excel (PivotTables, Formulas, Charts, Dashboard)  
+- **Tools Used:** Microsoft Excel (For clenaing, PivotTables, Formulas, Charts, Dashboard)  
 - **Key Deliverables:**  
   - Data cleaning and preprocessing  
   - 14 analytical questions answered using PivotTables  
-  - Interactive Excel dashboard summarizing insights  
+  - Interactive Excel dashboard summarizing insights
+ 
+## Solution to Analysis Tasks
+### 1. Average Discount Percentage by Product Category
+ Represented as a pivot table
+ 
+- This will show which categories tend to have the highest/lower discounts
