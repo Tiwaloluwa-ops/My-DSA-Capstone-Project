@@ -137,10 +137,10 @@ Before analysis, I performed the following data cleaning steps:
 - Eliminated records with "NULL" department values
 ![tab](https://github.com/user-attachments/assets/e56a1691-3806-4913-9a09-3efe6c3ce75f)
 
-## Key Insights and Visualizations
-### 1. Gender Distribution Across the Organization
-# Gender by region
-# Gender by department
+# Key Insights and Visualizations
+## 1. Gender Distribution Across the Organization
+### Gender by region
+### Gender by department
 ![Capture-1](https://github.com/user-attachments/assets/5dbe8fb1-9b35-4d73-871c-1aa3210b6c74)
 
 **Findings:**
@@ -149,16 +149,22 @@ Before analysis, I performed the following data cleaning steps:
 - Technical departments (Engineering, Manufacturing) show extreme male dominance (>80%)
 - Administrative departments show more balanced or female-dominated distributions
 
-### 2. Performance Ratings by Gender
-# Average rating by gender
+# 2. Performance Ratings by Gender
+## Average rating by gender
 **Findings:**
 - Male employees receive "Excellent" ratings 28% more frequently than female employees
 - Female employees are overrepresented in "Average" and "Good" categories
 - The undisclosed gender group shows an unusual distribution skewed toward extremes
+![rat](https://github.com/user-attachments/assets/da51c169-edf9-448c-8de8-8976e9c181cd)
 
 ### 3. Gender Pay Gap Analysis
 # Average salary by gender
 # Pay gap by department
+![sal](https://github.com/user-attachments/assets/4b8709b9-52ba-4d55-a5d6-9a623419b180)
+
+![dashboard](https://github.com/user-attachments/assets/7a80dd44-097d-4cf9-bca1-77a7d9ed6652)
+![gen](https://github.com/user-attachments/assets/71885cde-66f1-41fc-a474-db4156bd594b)
+
 **Findings:**
 - Company-wide median salary for men is 18% higher than for women
 - The pay gap is most severe in:
@@ -173,14 +179,8 @@ Before analysis, I performed the following data cleaning steps:
 - Only 62% of employees currently meet the $90,000 minimum requirement
 - Salary distribution shows clustering in $50k-$80k and $100k-$130k ranges
 - Region 1 has the worst compliance at 54%, while Region 3 leads with 68%
-### 5. Bonus Payment Calculations
-# Merge with bonus rules and calculate
 
-# Summary by region
-**Bonus Payment Results:**
-- Total company bonus payout: $4.2 million
-- Total compensation (salary + bonus): $58.7 million
-- Region 2 accounts for 42% of bonus payments due to higher performance ratings
+
 ## Recommendations
 1. **Gender Balance Initiatives**:
    - Implement targeted recruitment programs for technical departments to improve female representation
