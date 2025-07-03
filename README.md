@@ -1,11 +1,10 @@
 # My-DSA-Capstone-Project
-This is theRatings
-project I submitted in my portfolio building journey, while taking my Data Analytics Class with Digital Skillup and The Incubator Hub
+This is the project I submitted in my portfolio building journey, while taking my Data Analytics Class with Digital Skillup and The Incubator Hub
 
 # Project Topic-Amazon Product Review Analysis
 
 # Overview
-As a Junior Data Analyst at RetailTech Insights, my objective is to nalyze Amazon product review data to generate actionable insights for e-commerce sellers regarding product performance, pricing strategies, and customer engagement
+As a Junior Data Analyst at RetailTech Insights, my objective is to analyze Amazon Product Review data to generate actionable insights for e-commerce sellers regarding product performance, pricing strategies, and customer engagement
 
 ## Step-by-Step Analysis
 ### 1. Data Preparation
@@ -127,25 +126,29 @@ This project enables RetailTech Insights to provide Amazon sellers with data-dri
 
 # CASE STUDY 2
 
-# Palmora Group HR Analysis: Addressing Gender Inequality
+# Palmoria Group HR Analysis: Addressing Gender Inequality
 ## Executive Summary
-This analysis examines gender-related issues within Palmora Group across its three regions. Key findings reveal significant gender disparities in distribution, compensation, and performance ratings that require immediate attention from management to address the company's public image challenges and ensure compliance with new regulations.
-## Data Preparation
+This analysis examines gender-related issues within Palmoria Group across its three regions. Key findings reveal significant gender disparities in distribution, compensation, and performance ratings that require immediate attention from management to address the company's public image challenges and ensure compliance with new regulations.
 
+## Data Preparation
 Before analysis, I performed the following data cleaning steps:
 - Assigned "Undisclosed" as the generic gender status for employees who refused to disclose
 - Removed employees no longer with the company (those without salaries)
 - Eliminated records with "NULL" department values
+![tab](https://github.com/user-attachments/assets/e56a1691-3806-4913-9a09-3efe6c3ce75f)
+
 ## Key Insights and Visualizations
 ### 1. Gender Distribution Across the Organization
 # Gender by region
-# Gender by department 
+# Gender by department
+![Capture-1](https://github.com/user-attachments/assets/5dbe8fb1-9b35-4d73-871c-1aa3210b6c74)
 
 **Findings:**
 - Male employees dominate at 62% of the workforce, with females at 35% and 3% undisclosed
 - Region 2 shows the most balanced distribution (55% male, 42% female)
 - Technical departments (Engineering, Manufacturing) show extreme male dominance (>80%)
 - Administrative departments show more balanced or female-dominated distributions
+
 ### 2. Performance Ratings by Gender
 # Average rating by gender
 **Findings:**
