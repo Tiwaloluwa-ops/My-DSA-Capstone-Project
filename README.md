@@ -126,6 +126,7 @@ This dashboard will provide RetailTech Insights' clients with actionable insight
 This project enables RetailTech Insights to provide Amazon sellers with data-driven insights on pricing, customer engagement,and product performance. The interactive Excel dashboard allows users to explore the data dynamically and make informed business decisions.  
 
 # CASE STUDY 2
+
 # Palmora Group HR Analysis: Addressing Gender Inequality
 ## Executive Summary
 This analysis examines gender-related issues within Palmora Group across its three regions. Key findings reveal significant gender disparities in distribution, compensation, and performance ratings that require immediate attention from management to address the company's public image challenges and ensure compliance with new regulations.
