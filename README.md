@@ -15,7 +15,7 @@ Before analysis, I would:
 - Create necessary calculated columns:
   - Discount percentage, Discounted price, and Price range bucket
   - Transform the dataset into a table.
-  ![TableCapture](https://github.com/user-attachments/assets/9aa24380-130b-4bfd-9360-09841760cd37)
+![TableCapture](https://github.com/user-attachments/assets/60e82bf4-6ec2-4dc3-a109-fb8ac5e6dc2f)
 
  ### **1. Project Scope**  
 - **Dataset:** 1,465 products with 16 fields (product details, pricing, discounts, ratings, and reviews).  
@@ -60,46 +60,39 @@ This identifies the top products, likely popular or best-selling items, wit Elec
 ### 7. Products with ≥50% Discount
 - Create a filter on discount percentage column
 - Count rows where discount ≥ 50%
-- Can be shown by category using a pivot table
+= 570
 
 ### 8. Distribution of Product Ratings
 - Create bins for ratings (e.g., 1-1.9, 2-2.9, etc.)
-- Pivot table with:
-  - Rows: Rating bins
-  - Values: Count of Products
-- Shows rating distribution histogram
+  ![distrib of product](https://github.com/user-attachments/assets/782b37a5-540e-456a-a657-0b54886e7fbd)
+
 ### 9. Total Potential Revenue by Category
 - Create calculated column: Actual Price × Rating Count (as proxy for units sold)
 - Pivot table with:
-  - Rows: Category
-  - Values: Sum of Potential Revenue
-- Identifies most valuable categories
+![total pot rev bycateg](https://github.com/user-attachments/assets/063e1237-e039-4dd7-9a03-19684b78ea7e)
+This dentifies the most valuable categories
+
 ### 10. Unique Products per Price Range
 - Create price buckets (<₹200, ₹200-₹500, >₹500)
-- Pivot table with:
-  - Rows: Price buckets
-  - Values: Count of Products
-- Shows product distribution across price points
-### 11. Rating vs Discount Level
-- Create scatter plot with:
-  - X-axis: Discount Percentage
-  - Y-axis: Average Rating
-- Add trendline to show correlation
-- Can also calculate correlation coefficient
+- Pivot table
+![unique products](https://github.com/user-attachments/assets/9c6517d2-780e-4f17-9f74-1733c4378c5e)
+  - Shows product distribution across price points
+
 ### 12. Products with <1,000 Reviews
-- Filter review count column for values <1000
-- Count the number of products
-- Can break down by category with pivot table
+- Filter review count = 309
+
 ### 13. Categories with Highest Discounts
-- Pivot table from Q1 sorted by average discount (descending)
+.![categs with highetJPG](https://github.com/user-attachments/assets/71daad59-1edb-49c6-9451-0b2335f42847).
 - Shows which categories have most aggressive discounting
+
 ### 14. Top 5 Products by Rating & Reviews
-- Create a composite score (e.g., Rating × log(Review Count))
-- Rank products by this score
 - Select top 5 products
+![real top5](https://github.com/user-attachments/assets/046b3fa1-8d49-4142-aacc-efcb59d4dcb5)
+
 
 ## Dashboard
-![Dashboard Overview](https://github.com/user-attachments/assets/d2a9f677-3224-4e33-a0ca-6dfbe3153a40)
+![dash](https://github.com/user-attachments/assets/958bbf26-0afc-4462-87ee-fcd14d0fa4e5)
+
 
 **Dashboard Components:**
 1. **Summary Metrics Card:**
@@ -110,34 +103,15 @@ This identifies the top products, likely popular or best-selling items, wit Elec
 2. **Category Performance Section:**
    - Bar chart: Number of products by category
    - Bar chart: Total reviews by category
-   - Bar chart: Average discount by category
-   - Tree map: Potential revenue by category
+   - Bar chart: Distribution of Products Rating
    
 3. **Interactive Filters**  
-   - **Slicers:** Category, Price Bucket, Rating Range
-  
-3. **Price Analysis Section:**
-   - Pie chart: Product distribution by price bucket
-   - Scatter plot: Price vs Rating (color by category)
-
-4. **Top Products Section:**
-   - Table: Top 5 products by composite score
-   - Table: Products with highest discounts
-
-5. **Rating Distribution:**
-   - Histogram: Number of products by rating range
-
-6. **Discount-Rating Relationship:**
-   - Scatter plot with trendline: Discount % vs Rating
-
-**Interactive Elements:**
-- Category filter to drill down into specific categories
-- Toggle between different metrics views
-- Tooltips with detailed information
+   - **Slicers:** Category, Price Range Bucket, Rating Range, Discount Percentage
+ 
 
 **Design Considerations:**
-- Consistent color scheme by category
-- Clear labeling and legends
+- Consistent color scheme
+- ear labeling and legends
 - Mobile-responsive layout
 - Dynamic titles that update with filters
 
@@ -146,10 +120,10 @@ This dashboard will provide RetailTech Insights' clients with actionable insight
 **Actionable Recommendations:**  
    - Adjust pricing strategies based on discount impact  
    - Focus marketing on high-rated products  
-   - Improve low-rated products based on review trends  
+   - Improve low-rated products based on review and rating
 
 ### **9. Conclusion**  
-This project enables RetailTech Insights to provide Amazon sellers with data-driven insights on pricing, customer engagement, and product performance. The interactive Excel dashboard allows users to explore the data dynamically and make informed business decisions.  
+This project enables RetailTech Insights to provide Amazon sellers with data-driven insights on pricing, customer engagement,and product performance. The interactive Excel dashboard allows users to explore the data dynamically and make informed business decisions.  
 
 #CASE STUDY 2
 # Palmora Group HR Analysis: Addressing Gender Inequality
